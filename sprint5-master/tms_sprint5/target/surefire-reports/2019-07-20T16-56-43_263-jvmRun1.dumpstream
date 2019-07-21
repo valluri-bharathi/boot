@@ -1,0 +1,612 @@
+# Created at 2019-07-20T16:56:47.252
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-07-20T16:56:47.293
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created at 2019-07-20T16:56:47.294
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2019-07-20T16:56:47.296
+Unexpected IOException: I,1,file.encoding.pkg,sun.io
+
+
+# Created at 2019-07-20T16:56:47.297
+Unexpected IOException: I,1,java.specification.version,1.8
+
+
+# Created at 2019-07-20T16:56:47.299
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created at 2019-07-20T16:56:47.301
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1252
+
+
+# Created at 2019-07-20T16:56:47.304
+Unexpected IOException: I,1,java.class.path,D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5\005Ctarget\005Ctest-classes;D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5\005Ctarget\005Cclasses;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.1.6.RELEASE\005Cspring-boot-starter-data-jpa-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.1.6.RELEASE\005Cspring-boot-starter-aop-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.1.8.RELEASE\005Cspring-aop-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.4\005Caspectjweaver-1.9.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.3\005Cjavax.transaction-api-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cxml\005Cbind\005Cjaxb-api\005C2.3.1\005Cjaxb-api-2.3.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cjavax.activation-api\005C1.2.0\005Cjavax.activation-api-1.2.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.3.10.Final\005Chibernate-core-5.3.10.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.2.Final\005Cjboss-logging-3.3.2.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cpersistence\005Cjavax.persistence-api\005C2.2\005Cjavax.persistence-api-2.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.23.2-GA\005Cjavassist-3.23.2-GA.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.9.13\005Cbyte-buddy-1.9.13.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.5.Final\005Cjandex-2.0.5.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.4.0\005Cclassmate-1.4.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cdom4j\005Cdom4j\005C2.1.1\005Cdom4j-2.1.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.4.Final\005Chibernate-commons-annotations-5.0.4.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.1.9.RELEASE\005Cspring-data-jpa-2.1.9.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.1.9.RELEASE\005Cspring-data-commons-2.1.9.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.1.8.RELEASE\005Cspring-orm-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.1.8.RELEASE\005Cspring-context-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.1.8.RELEASE\005Cspring-tx-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.1.8.RELEASE\005Cspring-beans-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.26\005Cslf4j-api-1.7.26.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.1.8.RELEASE\005Cspring-aspects-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.1.6.RELEASE\005Cspring-boot-starter-jdbc-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.1.6.RELEASE\005Cspring-boot-starter-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.1.6.RELEASE\005Cspring-boot-starter-logging-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.3\005Clogback-classic-1.2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.3\005Clogback-core-1.2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.11.2\005Clog4j-to-slf4j-2.11.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.11.2\005Clog4j-api-2.11.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.26\005Cjul-to-slf4j-1.7.26.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cannotation\005Cjavax.annotation-api\005C1.3.2\005Cjavax.annotation-api-1.3.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C3.2.0\005CHikariCP-3.2.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.1.8.RELEASE\005Cspring-jdbc-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.1.6.RELEASE\005Cspring-boot-starter-web-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.1.6.RELEASE\005Cspring-boot-starter-json-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.9.9\005Cjackson-databind-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.9.0\005Cjackson-annotations-2.9.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.9.9\005Cjackson-core-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.9.9\005Cjackson-datatype-jdk8-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.9.9\005Cjackson-datatype-jsr310-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.9.9\005Cjackson-module-parameter-names-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.1.6.RELEASE\005Cspring-boot-starter-tomcat-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.21\005Ctomcat-embed-core-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.21\005Ctomcat-embed-el-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.21\005Ctomcat-embed-websocket-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Cvalidator\005Chibernate-validator\005C6.0.17.Final\005Chibernate-validator-6.0.17.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C2.0.1.Final\005Cvalidation-api-2.0.1.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.1.8.RELEASE\005Cspring-web-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.1.8.RELEASE\005Cspring-webmvc-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.1.8.RELEASE\005Cspring-expression-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-devtools\005C2.1.6.RELEASE\005Cspring-boot-devtools-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.1.6.RELEASE\005Cspring-boot-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.1.6.RELEASE\005Cspring-boot-autoconfigure-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.1.6.RELEASE\005Cspring-boot-starter-test-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.1.6.RELEASE\005Cspring-boot-test-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.1.6.RELEASE\005Cspring-boot-test-autoconfigure-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.4.0\005Cjson-path-2.4.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.3\005Cjson-smart-2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C1.2\005Caccessors-smart-1.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.4\005Casm-5.0.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.11.1\005Cassertj-core-3.11.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.23.4\005Cmockito-core-2.23.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.9.13\005Cbyte-buddy-agent-1.9.13.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.1.8.RELEASE\005Cspring-core-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.1.8.RELEASE\005Cspring-jcl-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.1.8.RELEASE\005Cspring-test-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.6.2\005Cxmlunit-core-2.6.2.jar;
+
+
+# Created at 2019-07-20T16:56:47.306
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2019-07-20T16:56:47.307
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2019-07-20T16:56:47.308
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2019-07-20T16:56:47.309
+Unexpected IOException: I,1,java.vendor.url,http://java.oracle.com/
+
+
+# Created at 2019-07-20T16:56:47.321
+Unexpected IOException: I,1,user.timezone,Asia/Calcutta
+
+
+# Created at 2019-07-20T16:56:47.339
+Unexpected IOException: I,1,os.name,Windows 7
+
+
+# Created at 2019-07-20T16:56:47.340
+Unexpected IOException: I,1,java.vm.specification.version,1.8
+
+
+# Created at 2019-07-20T16:56:47.342
+Unexpected IOException: I,1,user.country,US
+
+
+# Created at 2019-07-20T16:56:47.343
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2019-07-20T16:56:47.347
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Cbin
+
+
+# Created at 2019-07-20T16:56:47.353
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005Ctrainee\005CAppData\005CLocal\005CTemp\005Csurefire3263592489753887250\005Csurefirebooter7501842200123293466.jar C:\005CUsers\005Ctrainee\005CAppData\005CLocal\005CTemp\005Csurefire3263592489753887250 2019-07-20T16-56-43_263-jvmRun1 surefire5337294805454965970tmp surefire_08015623325485018269tmp
+
+
+# Created at 2019-07-20T16:56:47.377
+Unexpected IOException: I,1,surefire.test.class.path,D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5\005Ctarget\005Ctest-classes;D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5\005Ctarget\005Cclasses;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-data-jpa\005C2.1.6.RELEASE\005Cspring-boot-starter-data-jpa-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-aop\005C2.1.6.RELEASE\005Cspring-boot-starter-aop-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.1.8.RELEASE\005Cspring-aop-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.9.4\005Caspectjweaver-1.9.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.3\005Cjavax.transaction-api-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cxml\005Cbind\005Cjaxb-api\005C2.3.1\005Cjaxb-api-2.3.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cjavax.activation-api\005C1.2.0\005Cjavax.activation-api-1.2.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.3.10.Final\005Chibernate-core-5.3.10.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.2.Final\005Cjboss-logging-3.3.2.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cpersistence\005Cjavax.persistence-api\005C2.2\005Cjavax.persistence-api-2.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.23.2-GA\005Cjavassist-3.23.2-GA.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.9.13\005Cbyte-buddy-1.9.13.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.5.Final\005Cjandex-2.0.5.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.4.0\005Cclassmate-1.4.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cdom4j\005Cdom4j\005C2.1.1\005Cdom4j-2.1.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.4.Final\005Chibernate-commons-annotations-5.0.4.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-jpa\005C2.1.9.RELEASE\005Cspring-data-jpa-2.1.9.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cdata\005Cspring-data-commons\005C2.1.9.RELEASE\005Cspring-data-commons-2.1.9.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C5.1.8.RELEASE\005Cspring-orm-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.1.8.RELEASE\005Cspring-context-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C5.1.8.RELEASE\005Cspring-tx-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.1.8.RELEASE\005Cspring-beans-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.26\005Cslf4j-api-1.7.26.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aspects\005C5.1.8.RELEASE\005Cspring-aspects-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-jdbc\005C2.1.6.RELEASE\005Cspring-boot-starter-jdbc-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter\005C2.1.6.RELEASE\005Cspring-boot-starter-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-logging\005C2.1.6.RELEASE\005Cspring-boot-starter-logging-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.2.3\005Clogback-classic-1.2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.2.3\005Clogback-core-1.2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-to-slf4j\005C2.11.2\005Clog4j-to-slf4j-2.11.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.11.2\005Clog4j-api-2.11.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjul-to-slf4j\005C1.7.26\005Cjul-to-slf4j-1.7.26.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cannotation\005Cjavax.annotation-api\005C1.3.2\005Cjavax.annotation-api-1.3.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Czaxxer\005CHikariCP\005C3.2.0\005CHikariCP-3.2.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C5.1.8.RELEASE\005Cspring-jdbc-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-web\005C2.1.6.RELEASE\005Cspring-boot-starter-web-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-json\005C2.1.6.RELEASE\005Cspring-boot-starter-json-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.9.9\005Cjackson-databind-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.9.0\005Cjackson-annotations-2.9.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.9.9\005Cjackson-core-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jdk8\005C2.9.9\005Cjackson-datatype-jdk8-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cdatatype\005Cjackson-datatype-jsr310\005C2.9.9\005Cjackson-datatype-jsr310-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Cmodule\005Cjackson-module-parameter-names\005C2.9.9\005Cjackson-module-parameter-names-2.9.9.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-tomcat\005C2.1.6.RELEASE\005Cspring-boot-starter-tomcat-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-core\005C9.0.21\005Ctomcat-embed-core-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-el\005C9.0.21\005Ctomcat-embed-el-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Capache\005Ctomcat\005Cembed\005Ctomcat-embed-websocket\005C9.0.21\005Ctomcat-embed-websocket-9.0.21.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chibernate\005Cvalidator\005Chibernate-validator\005C6.0.17.Final\005Chibernate-validator-6.0.17.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C2.0.1.Final\005Cvalidation-api-2.0.1.Final.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-web\005C5.1.8.RELEASE\005Cspring-web-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-webmvc\005C5.1.8.RELEASE\005Cspring-webmvc-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.1.8.RELEASE\005Cspring-expression-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-devtools\005C2.1.6.RELEASE\005Cspring-boot-devtools-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot\005C2.1.6.RELEASE\005Cspring-boot-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-autoconfigure\005C2.1.6.RELEASE\005Cspring-boot-autoconfigure-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-starter-test\005C2.1.6.RELEASE\005Cspring-boot-starter-test-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test\005C2.1.6.RELEASE\005Cspring-boot-test-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cboot\005Cspring-boot-test-autoconfigure\005C2.1.6.RELEASE\005Cspring-boot-test-autoconfigure-2.1.6.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cjayway\005Cjsonpath\005Cjson-path\005C2.4.0\005Cjson-path-2.4.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cminidev\005Cjson-smart\005C2.3\005Cjson-smart-2.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cminidev\005Caccessors-smart\005C1.2\005Caccessors-smart-1.2.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.4\005Casm-5.0.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.11.1\005Cassertj-core-3.11.1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.23.4\005Cmockito-core-2.23.4.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.9.13\005Cbyte-buddy-agent-1.9.13.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cskyscreamer\005Cjsonassert\005C1.5.0\005Cjsonassert-1.5.0.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Ccom\005Cvaadin\005Cexternal\005Cgoogle\005Candroid-json\005C0.0.20131108.vaadin1\005Candroid-json-0.0.20131108.vaadin1.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.1.8.RELEASE\005Cspring-core-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.1.8.RELEASE\005Cspring-jcl-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-test\005C5.1.8.RELEASE\005Cspring-test-5.1.8.RELEASE.jar;C:\005CUsers\005Ctrainee\005C.m2\005Crepository\005Corg\005Cxmlunit\005Cxmlunit-core\005C2.6.2\005Cxmlunit-core-2.6.2.jar;
+
+
+# Created at 2019-07-20T16:56:47.381
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2019-07-20T16:56:47.389
+Unexpected IOException: I,1,user.home,C:\005CUsers\005Ctrainee
+
+
+# Created at 2019-07-20T16:56:47.400
+Unexpected IOException: I,1,user.language,en
+
+
+# Created at 2019-07-20T16:56:47.401
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2019-07-20T16:56:47.403
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre
+
+
+# Created at 2019-07-20T16:56:47.404
+Unexpected IOException: I,1,basedir,D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5
+
+
+# Created at 2019-07-20T16:56:47.413
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2019-07-20T16:56:47.424
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2019-07-20T16:56:47.425
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2019-07-20T16:56:47.427
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2019-07-20T16:56:47.439
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2019-07-20T16:56:47.454
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005Ctrainee\005CAppData\005CLocal\005CTemp\005Csurefire3263592489753887250\005Csurefirebooter7501842200123293466.jar
+
+
+# Created at 2019-07-20T16:56:47.464
+Unexpected IOException: I,1,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Cclasses
+
+
+# Created at 2019-07-20T16:56:47.499
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2019-07-20T16:56:47.502
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2019-07-20T16:56:47.504
+Unexpected IOException: I,1,java.runtime.version,1.8.0_144-b01
+
+
+# Created at 2019-07-20T16:56:47.505
+Unexpected IOException: I,1,user.name,trainee
+
+
+# Created at 2019-07-20T16:56:47.506
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2019-07-20T16:56:47.507
+Unexpected IOException: I,1,os.version,6.1
+
+
+# Created at 2019-07-20T16:56:47.509
+Unexpected IOException: I,1,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cendorsed
+
+
+# Created at 2019-07-20T16:56:47.511
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2019-07-20T16:56:47.513
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created at 2019-07-20T16:56:47.515
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2019-07-20T16:56:47.516
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005Ctrainee\005C.m2\005Crepository
+
+
+# Created at 2019-07-20T16:56:47.518
+Unexpected IOException: I,1,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created at 2019-07-20T16:56:47.520
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005Ctrainee\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2019-07-20T16:56:47.523
+Unexpected IOException: I,1,java.version,1.8.0_144
+
+
+# Created at 2019-07-20T16:56:47.531
+Unexpected IOException: I,1,user.dir,D:\005CUsers\005Ctrainee\005CDesktop\005CNew folder (3)\005Ctms_sprint5
+
+
+# Created at 2019-07-20T16:56:47.537
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2019-07-20T16:56:47.547
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2019-07-20T16:56:47.552
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2019-07-20T16:56:47.555
+Unexpected IOException: I,1,sun.os.patch.level,Service Pack 1
+
+
+# Created at 2019-07-20T16:56:47.561
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005Coraclexe\005Capp\005Coracle\005Cproduct\005C11.2.0\005Cserver\005Cbin;;C:\005CProgramData\005COracle\005CJava\005Cjavapath;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cbin;.C:\005CProgramData\005COracle\005CJava\005Cjavapath;C:\005Coraclexe\005Capp\005Coracle\005Cproduct\005C11.2.0\005Cserver\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CProgram Files (x86)\005CQuickTime\005CQTSystem\005C;C:\005CProgram Files\005CCapgeminiScripts\005CSupport Tools\005C;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CUsers\005Ctrainee\005C.dnx\005Cbin;C:\005CProgram Files\005CMicrosoft DNX\005CDnvm\005C;C:\005CProgram Files\005CMicrosoft SQL Server\005C130\005CTools\005CBinn\005C;C:\005CProgram Files (x86)\005CBrackets\005Ccommand;C:\005CProgram Files (x86)\005CMicrosoft SQL Server\005C110\005CTools\005CBinn\005C;C:\005CProgram Files\005CMicrosoft SQL Server\005C110\005CTools\005CBinn\005C;C:\005CProgram Files\005CMicrosoft SQL Server\005C110\005CDTS\005CBinn\005C;C:\005CProgram Files (x86)\005CMicrosoft SQL Server\005C110\005CTools\005CBinn\005CManagementStudio\005C;C:\005CProgram Files (x86)\005CMicrosoft SQL Server\005C110\005CDTS\005CBinn\005C;C:\005CProgram Files\005Cdotnet\005C;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CProgram Files\005CMySQL\005CMySQL Utilities 1.6\005C;C:\005CProgram Files\005CGit\005Ccmd;;C:\005CUsers\005Ctrainee\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;.
+
+
+# Created at 2019-07-20T16:56:47.563
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created at 2019-07-20T16:56:47.564
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2019-07-20T16:56:47.565
+Unexpected IOException: I,1,java.vm.version,25.144-b01
+
+
+# Created at 2019-07-20T16:56:47.566
+Unexpected IOException: I,1,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_144\005Cjre\005Clib\005Cext;C:\005CWINDOWS\005CSun\005CJava\005Clib\005Cext
+
+
+# Created at 2019-07-20T16:56:47.568
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2019-07-20T16:56:47.569
+Unexpected IOException: I,1,java.class.version,52.0
+
+
+# Created at 2019-07-20T16:56:47.694
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.cg.tms_sprint5.TmsSprint5ApplicationTests,null,null,null
+
+
+# Created at 2019-07-20T16:56:48.045
+Unexpected IOException with stream: 16:56:48.034 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.052
+Unexpected IOException with stream: 16:56:48.050 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+
+
+# Created at 2019-07-20T16:56:48.096
+Unexpected IOException with stream: 16:56:48.087 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+
+
+# Created at 2019-07-20T16:56:48.147
+Unexpected IOException with stream: 16:56:48.145 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+
+
+# Created at 2019-07-20T16:56:48.168
+Unexpected IOException with stream: 16:56:48.167 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2019-07-20T16:56:48.172
+Unexpected IOException with stream: 16:56:48.171 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]: class path resource [com/cg/tms_sprint5/TmsSprint5ApplicationTests-context.xml] does not exist
+
+
+# Created at 2019-07-20T16:56:48.173
+Unexpected IOException with stream: 16:56:48.172 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]: class path resource [com/cg/tms_sprint5/TmsSprint5ApplicationTestsContext.groovy] does not exist
+
+
+# Created at 2019-07-20T16:56:48.174
+Unexpected IOException with stream: 16:56:48.173 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2019-07-20T16:56:48.176
+Unexpected IOException with stream: 16:56:48.175 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]: TmsSprint5ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2019-07-20T16:56:48.258
+Unexpected IOException with stream: 16:56:48.257 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.538
+Unexpected IOException with stream: 16:56:48.532 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Users\trainee\Desktop\New folder (3)\tms_sprint5\target\classes\com\cg\tms_sprint5\TmsSprint5Application.class]
+
+
+# Created at 2019-07-20T16:56:48.547
+Unexpected IOException with stream: 16:56:48.546 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cg.tms_sprint5.TmsSprint5Application for test class com.cg.tms_sprint5.TmsSprint5ApplicationTests
+
+
+# Created at 2019-07-20T16:56:48.720
+Unexpected IOException with stream: 16:56:48.717 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]: using defaults.
+
+
+# Created at 2019-07-20T16:56:48.731
+Unexpected IOException with stream: 16:56:48.722 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2019-07-20T16:56:48.806
+Unexpected IOException with stream: 16:56:48.805 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4562e04d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a65fe7c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4135c3b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6302bbb1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31304f14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34a3d150, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2a4fb17b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5c6648b0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f1de4c7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@459e9125, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@128d2484, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7cc0cdad]
+
+
+# Created at 2019-07-20T16:56:48.809
+Unexpected IOException with stream: 16:56:48.808 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.812
+Unexpected IOException with stream: 16:56:48.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.825
+Unexpected IOException with stream: 16:56:48.823 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.830
+Unexpected IOException with stream: 16:56:48.827 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.837
+Unexpected IOException with stream: 16:56:48.835 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.845
+Unexpected IOException with stream: 16:56:48.838 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.863
+Unexpected IOException with stream: 16:56:48.862 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@765d7657 testClass = TmsSprint5ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@74235045 testClass = TmsSprint5ApplicationTests, locations = '{}', classes = '{class com.cg.tms_sprint5.TmsSprint5Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@192d3247, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@43bd930a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@18bf3d14, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@954b04f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2019-07-20T16:56:48.865
+Unexpected IOException with stream: 16:56:48.864 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:48.975
+Unexpected IOException with stream: 16:56:48.974 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cg.tms_sprint5.TmsSprint5ApplicationTests]
+
+
+# Created at 2019-07-20T16:56:49.001
+Unexpected IOException with stream: 16:56:49.000 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+
+# Created at 2019-07-20T16:56:49.400
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-20T16:56:49.402
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2019-07-20T16:56:49.403
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2019-07-20T16:56:49.407
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2019-07-20T16:56:49.408
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2019-07-20T16:56:49.410
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2019-07-20T16:56:49.411
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2019-07-20T16:56:49.417
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.1.6.RELEASE)
+
+
+# Created at 2019-07-20T16:56:49.418
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-20T16:56:49.609
+Unexpected IOException with stream: 2019-07-20 16:56:49.606  INFO 7536 --- [           main] c.c.t.TmsSprint5ApplicationTests         : Starting TmsSprint5ApplicationTests on DIN13002119 with PID 7536 (started by trainee in D:\Users\trainee\Desktop\New folder (3)\tms_sprint5)
+
+
+# Created at 2019-07-20T16:56:49.612
+Unexpected IOException with stream: 2019-07-20 16:56:49.611  INFO 7536 --- [           main] c.c.t.TmsSprint5ApplicationTests         : No active profile set, falling back to default profiles: default
+
+
+# Created at 2019-07-20T16:56:51.408
+Unexpected IOException with stream: 2019-07-20 16:56:51.402  INFO 7536 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2019-07-20T16:56:51.441
+Unexpected IOException with stream: 2019-07-20 16:56:51.440  INFO 7536 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+
+
+# Created at 2019-07-20T16:56:52.589
+Unexpected IOException with stream: 2019-07-20 16:56:52.525  INFO 7536 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23b26e9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-07-20T16:56:52.846
+Unexpected IOException with stream: 2019-07-20 16:56:52.842  WARN 7536 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+
+
+# Created at 2019-07-20T16:56:52.906
+Unexpected IOException with stream: 2019-07-20 16:56:52.903  INFO 7536 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+# Created at 2019-07-20T16:56:52.931
+Unexpected IOException with stream: 2019-07-20 16:56:52.925 ERROR 7536 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:307) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:119) [spring-boot-test-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 61 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a$$FastClassBySpringCGLIB$$62bac5ca.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 62 common frames omitted
+
+
+
+# Created at 2019-07-20T16:56:52.953
+Unexpected IOException with stream: 2019-07-20 16:56:52.947 ERROR 7536 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4562e04d] to prepare test instance [com.cg.tms_sprint5.TmsSprint5ApplicationTests@5eeedb60]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:307) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:119) ~[spring-boot-test-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 61 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a$$FastClassBySpringCGLIB$$62bac5ca.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$6431d88a.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 62 common frames omitted
+
+
+
+# Created at 2019-07-20T16:56:52.957
+Unexpected IOException: 5,1,com.cg.tms_sprint5.TmsSprint5ApplicationTests,contextLoads(com.cg.tms_sprint5.TmsSprint5ApplicationTests),null,null,null
+
+
+# Created at 2019-07-20T16:56:52.994
+Unexpected IOException: 7,1,com.cg.tms_sprint5.TmsSprint5ApplicationTests,contextLoads(com.cg.tms_sprint5.TmsSprint5ApplicationTests),null,Failed to load ApplicationContext,null,Failed to load ApplicationContext,TmsSprint5ApplicationTests.contextLoads \00BB IllegalState Failed to load Applicat...,java.lang.IllegalStateException: Failed to load ApplicationContext\000ACaused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver\000ACaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver\000ACaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver\000ACaused by: java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver\000A
+
+
+# Created at 2019-07-20T16:56:52.998
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.cg.tms_sprint5.TmsSprint5ApplicationTests,null,null,null
+
+
